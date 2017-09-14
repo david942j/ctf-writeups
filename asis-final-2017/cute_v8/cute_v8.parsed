@@ -1,0 +1,158 @@
+  0 : StackCheck 
+  1 : LdaSmi [65] ; A
+  3 : Star r0
+  5 : LdaSmi [83] ; S
+  7 : Star r1
+  9 : LdaSmi [73] ; I
+ 11 : Star r2
+ 13 : LdaSmi [123] ; {
+ 15 : Star r3
+ 17 : LdaSmi [125] ; }
+ 19 : Star r4
+ 21 : LdaSmi [95] ; _
+ 23 : Star r5
+ 25 : LdaConstant [0]
+ 27 : Star r6
+ 29 : LdaZero 
+ 30 : Star r7
+ 32 : LdaGlobal [1], [5]
+ 35 : Star r10
+ 37 : LdaNamedProperty r10, [2], [7]
+ 41 : Star r9
+ 43 : CallProperty1 r9, r10, r0, [3] ; 1.2(this, 'A')
+ 48 : Star r6
+ 50 : Nop 
+ 51 : LdaGlobal [1], [5]
+ 54 : Star r11
+ 56 : LdaNamedProperty r11, [2], [16]
+ 60 : Star r10
+ 62 : CallProperty1 r10, r11, r1, [14]
+ 67 : Add r6, [13]
+ 70 : Mov r6, r9
+ 73 : Star r6 ; 1.2('A') + 1.2('S')
+ 75 : Nop 
+ 76 : LdaGlobal [1], [5]
+ 79 : Star r11
+ 81 : LdaNamedProperty r11, [2], [25]
+ 85 : Star r10
+ 87 : CallProperty1 r10, r11, r2, [23]
+ 92 : Add r6, [22]
+ 95 : Mov r6, r9
+ 98 : Star r6
+100 : Nop 
+101 : LdaGlobal [1], [5]
+104 : Star r11
+106 : LdaNamedProperty r11, [2], [34]
+110 : Star r10
+112 : CallProperty1 r10, r11, r1, [32]
+117 : Add r6, [31]
+120 : Mov r6, r9
+123 : Star r6
+125 : Nop 
+126 : LdaGlobal [1], [5]
+129 : Star r11
+131 : LdaNamedProperty r11, [2], [43]
+135 : Star r10
+137 : CallProperty1 r10, r11, r3, [41]
+142 : Add r6, [40]
+145 : Mov r6, r9
+148 : Star r6
+150 : LdaZero 
+151 : Star r8
+153 : LdaSmi [20] ; a = 20
+155 : TestLessThanOrEqual r8, [45]
+158 : JumpIfFalse [187] (0x2e1993c8f37 @ 345)
+160 : StackCheck 
+161 : LdaSmi [47] ; a = '/'
+163 : Star r9
+165 : Ldar r0
+167 : TestLessThan r9, [47]
+170 : Star r9
+172 : LdaSmi [58]
+174 : TestLessThan r9, [48]
+177 : JumpIfTrue [38] (0x2e1993c8eb5 @ 215)
+179 : LdaSmi [64]
+181 : Star r9
+183 : Ldar r0
+185 : TestLessThan r9, [49]
+188 : Star r9
+190 : LdaSmi [90]
+192 : TestLessThan r9, [50]
+195 : JumpIfTrue [20] (0x2e1993c8eb5 @ 215)
+197 : LdaSmi [96]
+199 : Star r9
+201 : Ldar r0
+203 : TestLessThan r9, [51]
+206 : Star r9
+208 : LdaSmi [123]
+210 : TestLessThan r9, [52]
+213 : JumpIfFalse [27] (0x2e1993c8ece @ 240)
+215 : Nop 
+216 : LdaGlobal [1], [5]
+219 : Star r11
+221 : LdaNamedProperty r11, [2], [60]
+225 : Star r10
+227 : CallProperty1 r10, r11, r0, [58]
+232 : Add r6, [57]
+235 : Mov r6, r9
+238 : Star r6
+240 : LdaSmi [2]
+242 : TestEqual r7, [62]
+245 : JumpIfFalse [9] (0x2e1993c8edc @ 254)
+247 : Ldar r0
+249 : BitwiseXorSmi [4], [63]
+252 : Star r0
+254 : LdaSmi [1]
+256 : TestGreaterThanOrEqual r7, [64]
+259 : JumpIfFalse [9] (0x2e1993c8eea @ 268)
+261 : Ldar r0
+263 : BitwiseXorSmi [3], [65]
+266 : Star r0
+268 : Ldar r0
+270 : AddSmi [5], [66]
+273 : Star r0
+275 : LdaSmi [122]
+277 : Star r9
+279 : Ldar r0
+281 : TestLessThan r9, [67]
+284 : JumpIfFalse [38] (0x2e1993c8f20 @ 322)
+286 : Ldar r7 ; a = r7
+288 : AddSmi [1], [68]
+291 : Star r7 ; a = r7
+293 : Nop 
+294 : LdaGlobal [1], [5]
+297 : Star r11
+299 : LdaNamedProperty r11, [2], [76]
+303 : Star r10
+305 : CallProperty1 r10, r11, r5, [74]
+310 : Add r6, [73]
+313 : Mov r6, r9
+316 : Star r6
+318 : LdaSmi [66]
+320 : Star r0
+322 : LdaSmi [48]
+324 : TestLessThan r0, [78]
+327 : JumpIfFalse [9] (0x2e1993c8f2e @ 336)
+329 : Ldar r0
+331 : AddSmi [30], [79]
+334 : Star r0
+336 : Ldar r8
+338 : Inc [46]
+340 : Star r8
+342 : JumpLoop [189], [0] (0x2e1993c8e77 @ 153)
+345 : Nop 
+346 : LdaGlobal [1], [5]
+349 : Star r11
+351 : LdaNamedProperty r11, [2], [87]
+355 : Star r10
+357 : CallProperty1 r10, r11, r4, [85]
+362 : Add r6, [84]
+365 : Mov r6, r9
+368 : Star r6
+370 : LdaGlobal [3], [91]
+373 : Star r10
+375 : LdaNamedProperty r10, [4], [93]
+379 : Star r9
+381 : CallProperty1 r9, r10, r6, [89]
+386 : LdaUndefined 
+387 : Return 

@@ -1,0 +1,163 @@
+[generating bytecode for function: get_flag]
+Parameter count 1
+Frame size 96
+   79 E> 0x2e1993c8dde @    0 : 93                StackCheck 
+   94 S> 0x2e1993c8ddf @    1 : 03 41             LdaSmi [65] ; A
+         0x2e1993c8de1 @    3 : 1f fa             Star r0
+  108 S> 0x2e1993c8de3 @    5 : 03 53             LdaSmi [83] ; S
+         0x2e1993c8de5 @    7 : 1f f9             Star r1
+  122 S> 0x2e1993c8de7 @    9 : 03 49             LdaSmi [73] ; I
+         0x2e1993c8de9 @   11 : 1f f8             Star r2
+  137 S> 0x2e1993c8deb @   13 : 03 7b             LdaSmi [123] ; {
+         0x2e1993c8ded @   15 : 1f f7             Star r3
+  153 S> 0x2e1993c8def @   17 : 03 7d             LdaSmi [125] ; }
+         0x2e1993c8df1 @   19 : 1f f6             Star r4
+  175 S> 0x2e1993c8df3 @   21 : 03 5f             LdaSmi [95] ; _
+         0x2e1993c8df5 @   23 : 1f f5             Star r5
+  191 S> 0x2e1993c8df7 @   25 : 09 00             LdaConstant [0]
+         0x2e1993c8df9 @   27 : 1f f4             Star r6
+  206 S> 0x2e1993c8dfb @   29 : 02                LdaZero 
+         0x2e1993c8dfc @   30 : 1f f3             Star r7
+  211 S> 0x2e1993c8dfe @   32 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8e01 @   35 : 1f f0             Star r10
+  222 E> 0x2e1993c8e03 @   37 : 21 f0 02 07       LdaNamedProperty r10, [2], [7]
+         0x2e1993c8e07 @   41 : 1f f1             Star r9
+  223 E> 0x2e1993c8e09 @   43 : 4d f1 f0 fa 03    CallProperty1 r9, r10, r0, [3] ; 1.2(this, 'A')
+         0x2e1993c8e0e @   48 : 1f f4             Star r6
+  242 S> 0x2e1993c8e10 @   50 : a5                Nop 
+  249 E> 0x2e1993c8e11 @   51 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8e14 @   54 : 1f ef             Star r11
+  255 E> 0x2e1993c8e16 @   56 : 21 ef 02 10       LdaNamedProperty r11, [2], [16]
+         0x2e1993c8e1a @   60 : 1f f0             Star r10
+  256 E> 0x2e1993c8e1c @   62 : 4d f0 ef f9 0e    CallProperty1 r10, r11, r1, [14]
+         0x2e1993c8e21 @   67 : 2c f4 0d          Add r6, [13]
+         0x2e1993c8e24 @   70 : 20 f4 f1          Mov r6, r9
+         0x2e1993c8e27 @   73 : 1f f4             Star r6 ; 1.2('A') + 1.2('S')
+  275 S> 0x2e1993c8e29 @   75 : a5                Nop 
+  281 E> 0x2e1993c8e2a @   76 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8e2d @   79 : 1f ef             Star r11
+  287 E> 0x2e1993c8e2f @   81 : 21 ef 02 19       LdaNamedProperty r11, [2], [25]
+         0x2e1993c8e33 @   85 : 1f f0             Star r10
+  288 E> 0x2e1993c8e35 @   87 : 4d f0 ef f8 17    CallProperty1 r10, r11, r2, [23]
+         0x2e1993c8e3a @   92 : 2c f4 16          Add r6, [22]
+         0x2e1993c8e3d @   95 : 20 f4 f1          Mov r6, r9
+         0x2e1993c8e40 @   98 : 1f f4             Star r6
+  307 S> 0x2e1993c8e42 @  100 : a5                Nop 
+  313 E> 0x2e1993c8e43 @  101 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8e46 @  104 : 1f ef             Star r11
+  319 E> 0x2e1993c8e48 @  106 : 21 ef 02 22       LdaNamedProperty r11, [2], [34]
+         0x2e1993c8e4c @  110 : 1f f0             Star r10
+  320 E> 0x2e1993c8e4e @  112 : 4d f0 ef f9 20    CallProperty1 r10, r11, r1, [32]
+         0x2e1993c8e53 @  117 : 2c f4 1f          Add r6, [31]
+         0x2e1993c8e56 @  120 : 20 f4 f1          Mov r6, r9
+         0x2e1993c8e59 @  123 : 1f f4             Star r6
+  339 S> 0x2e1993c8e5b @  125 : a5                Nop 
+  345 E> 0x2e1993c8e5c @  126 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8e5f @  129 : 1f ef             Star r11
+  351 E> 0x2e1993c8e61 @  131 : 21 ef 02 2b       LdaNamedProperty r11, [2], [43]
+         0x2e1993c8e65 @  135 : 1f f0             Star r10
+  352 E> 0x2e1993c8e67 @  137 : 4d f0 ef f7 29    CallProperty1 r10, r11, r3, [41]
+         0x2e1993c8e6c @  142 : 2c f4 28          Add r6, [40]
+         0x2e1993c8e6f @  145 : 20 f4 f1          Mov r6, r9
+         0x2e1993c8e72 @  148 : 1f f4             Star r6
+  385 S> 0x2e1993c8e74 @  150 : 02                LdaZero 
+         0x2e1993c8e75 @  151 : 1f f2             Star r8
+  390 S> 0x2e1993c8e77 @  153 : 03 14             LdaSmi [20] ; a = 20
+  390 E> 0x2e1993c8e79 @  155 : 5f f2 2d          TestLessThanOrEqual r8, [45]
+         0x2e1993c8e7c @  158 : 87 bb             JumpIfFalse [187] (0x2e1993c8f37 @ 345)
+  372 E> 0x2e1993c8e7e @  160 : 93                StackCheck 
+  412 S> 0x2e1993c8e7f @  161 : 03 2f             LdaSmi [47] ; a = '/'
+         0x2e1993c8e81 @  163 : 1f f1             Star r9
+         0x2e1993c8e83 @  165 : 1e fa             Ldar r0
+  419 E> 0x2e1993c8e85 @  167 : 5d f1 2f          TestLessThan r9, [47]
+         0x2e1993c8e88 @  170 : 1f f1             Star r9
+         0x2e1993c8e8a @  172 : 03 3a             LdaSmi [58]
+  421 E> 0x2e1993c8e8c @  174 : 5d f1 30          TestLessThan r9, [48]
+         0x2e1993c8e8f @  177 : 86 26             JumpIfTrue [38] (0x2e1993c8eb5 @ 215)
+         0x2e1993c8e91 @  179 : 03 40             LdaSmi [64]
+         0x2e1993c8e93 @  181 : 1f f1             Star r9
+         0x2e1993c8e95 @  183 : 1e fa             Ldar r0
+  432 E> 0x2e1993c8e97 @  185 : 5d f1 31          TestLessThan r9, [49]
+         0x2e1993c8e9a @  188 : 1f f1             Star r9
+         0x2e1993c8e9c @  190 : 03 5a             LdaSmi [90]
+  434 E> 0x2e1993c8e9e @  192 : 5d f1 32          TestLessThan r9, [50]
+         0x2e1993c8ea1 @  195 : 86 14             JumpIfTrue [20] (0x2e1993c8eb5 @ 215)
+         0x2e1993c8ea3 @  197 : 03 60             LdaSmi [96]
+         0x2e1993c8ea5 @  199 : 1f f1             Star r9
+         0x2e1993c8ea7 @  201 : 1e fa             Ldar r0
+  445 E> 0x2e1993c8ea9 @  203 : 5d f1 33          TestLessThan r9, [51]
+         0x2e1993c8eac @  206 : 1f f1             Star r9
+         0x2e1993c8eae @  208 : 03 7b             LdaSmi [123]
+  447 E> 0x2e1993c8eb0 @  210 : 5d f1 34          TestLessThan r9, [52]
+         0x2e1993c8eb3 @  213 : 87 1b             JumpIfFalse [27] (0x2e1993c8ece @ 240)
+  462 S> 0x2e1993c8eb5 @  215 : a5                Nop 
+  469 E> 0x2e1993c8eb6 @  216 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8eb9 @  219 : 1f ef             Star r11
+  475 E> 0x2e1993c8ebb @  221 : 21 ef 02 3c       LdaNamedProperty r11, [2], [60]
+         0x2e1993c8ebf @  225 : 1f f0             Star r10
+  476 E> 0x2e1993c8ec1 @  227 : 4d f0 ef fa 3a    CallProperty1 r10, r11, r0, [58]
+         0x2e1993c8ec6 @  232 : 2c f4 39          Add r6, [57]
+         0x2e1993c8ec9 @  235 : 20 f4 f1          Mov r6, r9
+         0x2e1993c8ecc @  238 : 1f f4             Star r6
+  504 S> 0x2e1993c8ece @  240 : 03 02             LdaSmi [2]
+  512 E> 0x2e1993c8ed0 @  242 : 5b f3 3e          TestEqual r7, [62]
+         0x2e1993c8ed3 @  245 : 87 09             JumpIfFalse [9] (0x2e1993c8edc @ 254)
+  518 S> 0x2e1993c8ed5 @  247 : 1e fa             Ldar r0
+  521 E> 0x2e1993c8ed7 @  249 : 3d 04 3f          BitwiseXorSmi [4], [63]
+         0x2e1993c8eda @  252 : 1f fa             Star r0
+  530 S> 0x2e1993c8edc @  254 : 03 01             LdaSmi [1]
+  538 E> 0x2e1993c8ede @  256 : 60 f3 40          TestGreaterThanOrEqual r7, [64]
+         0x2e1993c8ee1 @  259 : 87 09             JumpIfFalse [9] (0x2e1993c8eea @ 268)
+  544 S> 0x2e1993c8ee3 @  261 : 1e fa             Ldar r0
+  547 E> 0x2e1993c8ee5 @  263 : 3d 03 41          BitwiseXorSmi [3], [65]
+         0x2e1993c8ee8 @  266 : 1f fa             Star r0
+  557 S> 0x2e1993c8eea @  268 : 1e fa             Ldar r0
+  560 E> 0x2e1993c8eec @  270 : 37 05 42          AddSmi [5], [66]
+         0x2e1993c8eef @  273 : 1f fa             Star r0
+  569 S> 0x2e1993c8ef1 @  275 : 03 7a             LdaSmi [122]
+         0x2e1993c8ef3 @  277 : 1f f1             Star r9
+         0x2e1993c8ef5 @  279 : 1e fa             Ldar r0
+  576 E> 0x2e1993c8ef7 @  281 : 5d f1 43          TestLessThan r9, [67]
+         0x2e1993c8efa @  284 : 87 26             JumpIfFalse [38] (0x2e1993c8f20 @ 322)
+  587 S> 0x2e1993c8efc @  286 : 1e f3             Ldar r7 ; a = r7
+         0x2e1993c8efe @  288 : 37 01 44          AddSmi [1], [68]
+         0x2e1993c8f01 @  291 : 1f f3             Star r7 ; a = r7
+  603 S> 0x2e1993c8f03 @  293 : a5                Nop 
+  610 E> 0x2e1993c8f04 @  294 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8f07 @  297 : 1f ef             Star r11
+  616 E> 0x2e1993c8f09 @  299 : 21 ef 02 4c       LdaNamedProperty r11, [2], [76]
+         0x2e1993c8f0d @  303 : 1f f0             Star r10
+  617 E> 0x2e1993c8f0f @  305 : 4d f0 ef f5 4a    CallProperty1 r10, r11, r5, [74]
+         0x2e1993c8f14 @  310 : 2c f4 49          Add r6, [73]
+         0x2e1993c8f17 @  313 : 20 f4 f1          Mov r6, r9
+         0x2e1993c8f1a @  316 : 1f f4             Star r6
+  650 S> 0x2e1993c8f1c @  318 : 03 42             LdaSmi [66]
+         0x2e1993c8f1e @  320 : 1f fa             Star r0
+  668 S> 0x2e1993c8f20 @  322 : 03 30             LdaSmi [48]
+  673 E> 0x2e1993c8f22 @  324 : 5d fa 4e          TestLessThan r0, [78]
+         0x2e1993c8f25 @  327 : 87 09             JumpIfFalse [9] (0x2e1993c8f2e @ 336)
+  686 S> 0x2e1993c8f27 @  329 : 1e fa             Ldar r0
+  689 E> 0x2e1993c8f29 @  331 : 37 1e 4f          AddSmi [30], [79]
+         0x2e1993c8f2c @  334 : 1f fa             Star r0
+  398 S> 0x2e1993c8f2e @  336 : 1e f2             Ldar r8
+         0x2e1993c8f30 @  338 : 42 2e             Inc [46]
+         0x2e1993c8f32 @  340 : 1f f2             Star r8
+         0x2e1993c8f34 @  342 : 77 bd 00          JumpLoop [189], [0] (0x2e1993c8e77 @ 153)
+  708 S> 0x2e1993c8f37 @  345 : a5                Nop 
+  714 E> 0x2e1993c8f38 @  346 : 0a 01 05          LdaGlobal [1], [5]
+         0x2e1993c8f3b @  349 : 1f ef             Star r11
+  720 E> 0x2e1993c8f3d @  351 : 21 ef 02 57       LdaNamedProperty r11, [2], [87]
+         0x2e1993c8f41 @  355 : 1f f0             Star r10
+  721 E> 0x2e1993c8f43 @  357 : 4d f0 ef f6 55    CallProperty1 r10, r11, r4, [85]
+         0x2e1993c8f48 @  362 : 2c f4 54          Add r6, [84]
+         0x2e1993c8f4b @  365 : 20 f4 f1          Mov r6, r9
+         0x2e1993c8f4e @  368 : 1f f4             Star r6
+  742 S> 0x2e1993c8f50 @  370 : 0a 03 5b          LdaGlobal [3], [91]
+         0x2e1993c8f53 @  373 : 1f f0             Star r10
+  749 E> 0x2e1993c8f55 @  375 : 21 f0 04 5d       LdaNamedProperty r10, [4], [93]
+         0x2e1993c8f59 @  379 : 1f f1             Star r9
+  750 E> 0x2e1993c8f5b @  381 : 4d f1 f0 f4 59    CallProperty1 r9, r10, r6, [89]
+         0x2e1993c8f60 @  386 : 04                LdaUndefined 
+  760 S> 0x2e1993c8f61 @  387 : 97                Return 
+Constant pool (size = 5)
+Handler Table (size = 16)
