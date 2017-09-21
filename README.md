@@ -15,6 +15,8 @@
 
 * Cute V8
 * Dr. John Waston
+* Enrage Me
+* Handicraft RSA
 * Jim Moriarty
 * Molly Hooper
 * Mycroft Holmes
