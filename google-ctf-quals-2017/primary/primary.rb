@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # encoding: ascii-8bit
-require 'pwn'        # https://github.com/peter50216/ruby-pwntools
+require 'pwn'        # https://github.com/peter50216/pwntools-ruby
 
 #================= Exploit Start ====================
 context.arch = 'amd64'

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: ascii-8bit
 
-require 'pwn'        # https://github.com/peter50216/ruby-pwntools
+require 'pwn'        # https://github.com/peter50216/pwntools-ruby
 code = {}
 mapping = []
 IO.binread('cute_v8.parsed').lines.map.with_index do |line, i|

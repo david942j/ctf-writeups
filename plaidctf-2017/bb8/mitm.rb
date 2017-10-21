@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: ascii-8bit
 require 'pry'
-require 'pwn'        # https://github.com/peter50216/ruby-pwntools
+require 'pwn'        # https://github.com/peter50216/pwntools-ruby
 
 def dec
   require 'openssl'

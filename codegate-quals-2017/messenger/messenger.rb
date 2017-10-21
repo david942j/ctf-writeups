@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 #encoding: ascii-8bit
 require_relative '../zocket/zocket'
-require 'pwn'      # https://github.com/peter50216/ruby-pwntools
+require 'pwn'      # https://github.com/peter50216/pwntools-ruby
 require 'heapinfo' # https://github.com/david942j/heapinfo
 
 $HOST, $PORT = '110.10.212.137', 3335

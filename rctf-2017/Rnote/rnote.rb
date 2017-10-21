@@ -2,7 +2,7 @@
 # encoding: ascii-8bit
 require_relative '../../zocket/zocket'
 require 'pry'
-require 'pwn'        # https://github.com/peter50216/ruby-pwntools
+require 'pwn'        # https://github.com/peter50216/pwntools-ruby
 require 'heapinfo'   # https://github.com/david942j/heapinfo
 require 'one_gadget' # https://github.com/david942j/one_gadget
 
