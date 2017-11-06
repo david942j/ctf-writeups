@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Footbook</title>
+    <%= favicon_link_tag 'footbook.ico' %>
+    <%= stylesheet_link_tag "application" %>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <div data-sticky-container>
+      <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+        <div class="title-bar-left menu-text" onclick='location.href="/"'>Footbook</div>
+        <div class="title-bar-right">
+          <% if current_user %>
+            <a href='/messages' class='top-btn'>Messages</a>
+            <a href='/users/logout' class='top-btn logout'>Logout</a>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <%= yield %>
+    <div style='display: none; z-index: 1006' class='fixed callout small alert'></div>
+    <script>$(document).foundation()</script>
+  </body>
+</html>

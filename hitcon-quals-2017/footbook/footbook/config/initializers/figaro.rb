@@ -1,0 +1,1 @@
+Figaro.require_keys(%w[flag twitter_api_key twitter_api_secret github_client_id github_client_secret dropbox_key dropbox_secret])

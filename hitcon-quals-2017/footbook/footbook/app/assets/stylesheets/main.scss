@@ -1,0 +1,62 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.cards {
+  $card-width: 400px;
+
+  padding-top: 20px;
+  .card {
+    width: $card-width;
+    .card-divider {
+      background-color: #f6f7f9;
+    }
+    .operations {
+      border-top: 1px solid #eee;
+      padding: 5px 1rem 5px 1rem;
+
+      .operator {
+        cursor: pointer;
+        opacity: 0.6;
+        transition: all 0.25s ease-in-out;
+        width: 24px;
+        height: 24px;
+        background-size: 24px 24px;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .foot {
+        float: left;
+        // background: image-url('icons/footprint.png') no-repeat center center;
+        margin-right: 10px;
+        border-radius: 50% 50%;
+        background: image-url('icons/toes_s.png') no-repeat center center;
+      }
+      .foot.footed {
+        cursor: default;
+        opacity: 1;
+      }
+      .counter {
+        color: #666;
+      }
+
+      .reply {
+        float: right;
+        background: image-url('icons/reply.png') no-repeat center center;
+      }
+    }
+  }
+  width: $card-width;
+  margin-left: calc(50% - #{$card-width/2});
+
+  .account {
+    font-weight: bold;
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

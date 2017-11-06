@@ -1,0 +1,13 @@
+<div class='messages cards'>
+  <% if @messages.empty? %><h2 style='text-align: center'>No messages</h2><% end %>
+  <% @messages.each do |message| %>
+    <div class="card">
+      <div class="card-divider">
+        <a style='font-weight: bold' href='/profile/<%= message.user.id %>'><%= message.user.email %></a>&nbsp;says:
+      </div>
+      <div class="card-section">
+        <p><%= message.content %></p>
+      </div>
+    </div>
+  <% end %>
+</div>

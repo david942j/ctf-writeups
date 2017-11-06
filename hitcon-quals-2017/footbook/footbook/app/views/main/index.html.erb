@@ -1,0 +1,57 @@
+<div class='cards'>
+  <% if current_user.email == User::ADMIN_EMAIL %>
+    <div class='card'>
+      <div class='card-divider'>Comes the flag</div>
+      <div class='card-section'><%= Figaro.env.flag %>
+      </div>
+    </div>
+  <% end %>
+  <% if @show_new %>
+    <div class='card'>
+      <div class='card-divider'>Want to say something?</div>
+      <div class='card-section'>
+        <input type='text' class='post' placeholder='something..'/>
+        <div class='button primary small newpost' style='float: right'>Post</div>
+      </div>
+    </div>
+  <% end %>
+  <% if @posts.empty? %><h2 style='text-align: center'>No posts</h2><% end %>
+  <% @posts.each do |post| %>
+    <div class="card">
+      <div class="card-divider">
+        <span>by&nbsp;</span><div data-user-id='<%= post.user.id %>'class='account'><%= post.user.email %></div>
+      </div>
+      <div class="card-section">
+        <p><%= post['content'] %></p>
+      </div>
+      <div class="operations">
+        <span>
+          <span data-post-id='<%= post.id %>' class='foot operator <%= 'footed' if @liked.member?(post.id) %>'></span>
+          <span class='counter'>
+            <% if post.foots_count == 0 %>
+              no body footed
+            <% else %>
+              <%= post.foots_count.to_s + (post.foots_count == 1 ? ' foot' : ' feet') %>
+            <% end %>
+          </span>
+        </span>
+        <span data-user-email='<%= post.user.email %>' class='reply operator'></span>
+      </div>
+    </div>
+  <% end %>
+</div>
+<div class="reveal" id="message-modal" data-reveal data-animation-out='true'>
+  <h1>Send message</h1>
+  <p class='lead'>
+    <label>
+      To:
+      <input name='email' type="text">
+    </label>
+  </p>
+  <textarea name='content' placeholder='Write something...'></textarea>
+  <div class='button primary send'>Send</div>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<script>this.Main.bind()</script>

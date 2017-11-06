@@ -34,6 +34,20 @@
 * primary
   - [writeup](https://david942j.blogspot.com/2017/06/write-up-google-ctf-2017-pwn474-primary.html)
 
+## hitcon-quals-2017
+
+These challenges are created by me so there're scripts for creating them.
+
+* artifact
+* real-ruby-escaping
+* seccomp
+* two
+* footbook
+  - [writeup](https://github.com/david942j/ctf-writeups/blob/master/hitcon-quals-2017/footbook/README.md)
+* sakura
+* start
+* void
+
 ## plaidctf-2017
 
 * bb8
