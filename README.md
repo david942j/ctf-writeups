@@ -40,6 +40,7 @@ These challenges are created by me so there're scripts for creating them.
 
 * artifact
 * real-ruby-escaping
+  - [writeup](https://david942j.blogspot.tw/2017/11/official-write-up-hitcon-ctf-2017.html)
 * seccomp
 * two
 * footbook
