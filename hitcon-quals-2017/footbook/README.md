@@ -14,7 +14,7 @@
 
 1. I've tested some oauth providers, only `dropbox.com` gives unauthorized email.
     * But Dropbox will say the email is not verified in `extra_info`, don't ignore it!
-2. You guys are really creative :p, some interesting fake flags posted in Footbook:
+2. You guys are really creative :p, some interesting fake flags posted on Footbook:
 ```
 hitcon{why_s0_s3ri0u$!!}
 hitcon{lfi_d03snt_sav3s_ou4_a$$}
