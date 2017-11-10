@@ -21,6 +21,11 @@
 * Molly Hooper
 * Mycroft Holmes
 
+## codeblue-2017
+
+* nonamestill
+* Demo Scene DB
+
 ## codegate-quals-2017
 
 * dartmaster
