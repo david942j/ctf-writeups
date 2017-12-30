@@ -11,6 +11,11 @@
   - [writeup](https://david942j.blogspot.com/2017/03/write-up-0ctf-2017-qual-pwn647-pages.html)
 * uploadcenter
 
+## 34c3ctf-2017
+
+* LFA
+* software_update
+
 ## asis-final-2017
 
 * Cute V8
