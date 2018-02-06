@@ -39,6 +39,12 @@
 * messenger
 * pngparser
 
+## codegate-quals-2018
+
+* 7amebox1
+* super_ftp
+* zoo
+
 ## google-ctf-quals-2017
 
 * primary
