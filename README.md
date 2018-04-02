@@ -11,6 +11,13 @@
   - [writeup](https://david942j.blogspot.com/2017/03/write-up-0ctf-2017-qual-pwn647-pages.html)
 * uploadcenter (pwn 523pts)
 
+## 0ctf-quals-2018
+
+* MathGame (misc 343pts)
+* MightyDragon (pwn 1000pts)
+* babystack (pwn 132pts)
+* hidden_message (misc 36pts)
+
 ## 34c3ctf-2017
 
 * LFA (pwn 401pts)
