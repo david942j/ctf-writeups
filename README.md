@@ -15,6 +15,7 @@
 
 * MathGame (misc 343pts)
 * MightyDragon (pwn 1000pts)
+  - [writeup](https://david942j.blogspot.tw/2018/04/write-up-0ctf-quals-2018-pwn1000-mighty.html)
 * babystack (pwn 132pts)
 * hidden_message (misc 36pts)
 
