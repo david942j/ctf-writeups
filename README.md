@@ -34,6 +34,13 @@
 * Molly Hooper (pwn 343pts)
 * Mycroft Holmes (pwn 131pts)
 
+## asis-quals-2018
+
+* Cat (pwn 68pts)
+* Density (rev 148pts)
+* My Blog (pwn 147pts)
+* The true origin (rev/crypto 394pts)
+
 ## codeblue-2017
 
 * nonamestill (pwn 447pts)
