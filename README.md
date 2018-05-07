@@ -87,6 +87,11 @@ These challenges are created by me so there're scripts for creating them.
 * Plaid Party Planning (pwn 400pts)
   - [writeup](https://david942j.blogspot.com/2017/04/write-up-plaidctf-2017-pwn400-plaid.html)
 
+## plaidctf-2018
+
+* potassium (pwn 400 + 150 + 250pts)
+* Re: Plaid Party Planning (misc 200pts)
+
 ## rctf-2017
 
 * RCalc (pwn 350pts)
