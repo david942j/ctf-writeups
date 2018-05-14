@@ -60,6 +60,12 @@
 * super_ftp (pwn 600pts)
 * zoo (pwn 980pts)
 
+## defcon-quals-2018
+
+* It's-a me! (pwn 124pts)
+* shellql (shellcode, web 118pts)
+* TechSupport (pwn 177pts)
+
 ## google-ctf-quals-2017
 
 * primary (pwn 474pts)
