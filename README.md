@@ -71,6 +71,14 @@
 * primary (pwn 474pts)
   - [writeup](https://david942j.blogspot.com/2017/06/write-up-google-ctf-2017-pwn474-primary.html)
 
+## google-ctf-quals-2018
+
+* APT42 (rev 288pts + pwn 420pts)
+* better_zip (crypto 231pts)
+* keygenme (rev 249pts)
+* sandbox-compat (pwn 420pts)
+* sftp (pwn 181pts)
+
 ## hitcon-quals-2017
 
 These challenges are created by me so there're scripts for creating them.
