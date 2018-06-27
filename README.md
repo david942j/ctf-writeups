@@ -77,6 +77,7 @@
 * better_zip (crypto 231pts)
 * keygenme (rev 249pts)
 * sandbox-compat (pwn 420pts)
+  - [writeup](https://david942j.blogspot.com/2018/06/write-up-google-ctf-2018-pwn420-sandbox.html)
 * sftp (pwn 181pts)
 
 ## hitcon-quals-2017
