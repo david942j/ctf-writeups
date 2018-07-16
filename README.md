@@ -95,6 +95,12 @@ These challenges are created by me so there're scripts for creating them.
 * start (pwn 132pts)
 * void (rev 252pts)
 
+## meepwnctf-2018
+
+* Coin (pwn 960pts)
+  - simple writeup in the directory
+* ESOR (crypto 100pts)
+
 ## plaidctf-2017
 
 * bb8 (crypto 200pts)
