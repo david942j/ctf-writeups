@@ -125,6 +125,12 @@ These challenges are created by me so there're scripts for creating them.
 * Steganographer Revenge (rev 500pts)
   - [writeup](https://david942j.blogspot.com/2017/09/write-up-tokyo-westerns-ctf-2017-rev500.html)
 
+## twctf-2018
+
+* EscapeMe (pwn 240 + 300 + 300pts)
+  - [writeup](https://david942j.blogspot.com/2018/09/write-up-tokyowesterns-ctf-2018.html)
+* REVersiNG (rev 447pts)
+
 ## whitehat-grand-prix-2016
 
 * Bun bo Nam Bo (pwn 500pts)
