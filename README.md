@@ -66,6 +66,11 @@
 * shellql (shellcode, web 118pts)
 * TechSupport (pwn 177pts)
 
+## dragonctf-teaser-2018
+
+* faststorage (pwn 400pts)
+* production (pwn 343pts)
+
 ## google-ctf-quals-2017
 
 * primary (pwn 474pts)
