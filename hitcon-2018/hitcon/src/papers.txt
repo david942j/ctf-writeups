@@ -1,0 +1,35 @@
+david942j
+All in one shot - One Gadget RCE
+All you need to know is: $ gem install one_gadget && one_gadget /lib/x86_64-linux-gnu/libc.so.6
+
+Beelzemon
+Duelist of Finality
+I'm one of the "Seven Great Demon Lords", representing Venus and the sin of Gluttony. I'm cruel but exceedingly prideful, would never attack the weak.
+
+Omnimon
+Legendary Warrior
+I am one of the "Royal Knights". I was fused from the Virus Busters WarGreymon and MetalGarurumon due to the powerful wills of everyone who wished for goodness.
+
+Orange
+A New Era Of SSRF
+The new meaning of SSRF - Special Super Rare Food! Yummmmmmm..
+
+Apocalymon
+Nightmare Soldiers
+I am designed with a blue-skinned humanoid with red trimming, a grey helmet with yellow markings, and a scar on my left eyes.
+
+Chronomon
+Chronomon Holy Mode
+I am an Ultra Level Digimon, a legendary Digimon born from the YMIR Project. I can only go into Holy Mode when digivolve with the power of holy light.
+
+Angelboy
+Play with File Structure - Yet Another Binary Exploit
+Too easy, even babies know how to exploit with file structure.
+
+Armagemon
+Armageddemon
+From Armageddon, the location of the final battle between good and evil prophesied in the Bible.
+
+Jesmon
+Warrior of Salvation
+Kid, try my Judgement of the Blade.

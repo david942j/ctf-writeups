@@ -100,6 +100,16 @@ These challenges are created by me so there're scripts for creating them.
 * start (pwn 132pts)
 * void (rev 252pts)
 
+## hitcon-2018
+
+These challenges are created by me so there're scripts for creating them.
+
+* EOP (rev 257pts)
+* abyss (pwn 230 + 292 + 262pts)
+* groot (pwn 305pts)
+* HITCON (327 pts)
+* unexecutable (360 pts)
+
 ## meepwnctf-2018
 
 * Coin (pwn 960pts)
