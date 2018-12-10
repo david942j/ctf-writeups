@@ -135,6 +135,10 @@ These challenges are created by me so there're scripts for creating them.
 * RNote2 (pwn 606pts)
 * crackme (rev 714pts)
 
+## realworld-ctf-finals-2018
+
+* frawler (pwn 500pts)
+
 ## twctf-2017
 
 * Steganographer Revenge (rev 500pts)
