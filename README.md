@@ -60,6 +60,10 @@
 * super_ftp (pwn 600pts)
 * zoo (pwn 980pts)
 
+## codegate-quals-2018
+
+* archiver (pwn 47.6pts)
+
 ## defcon-quals-2018
 
 * It's-a me! (pwn 124pts)
