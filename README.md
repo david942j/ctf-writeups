@@ -143,6 +143,13 @@ These challenges are created by me so there're scripts for creating them.
 
 * frawler (pwn 500pts)
 
+## teaser-confidence-quals-2019
+
+* go-machine (rev 304pts)
+* oldschool (rev 128pts)
+* p4fmt (pwn 304pts)
+* pudliszki (rev 128pts)
+
 ## twctf-2017
 
 * Steganographer Revenge (rev 500pts)
