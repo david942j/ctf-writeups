@@ -19,6 +19,14 @@
 * babystack (pwn 132pts)
 * hidden_message (misc 36pts)
 
+## 0ctf-quals-2019
+
+* applepie (pwn 785pts)
+* calvino (pwn 234pts)
+* Elements (rev 107pts)
+* fixed_point (rev 275pts)
+* flropyd (misc 366pts)
+
 ## 34c3ctf-2017
 
 * LFA (pwn 401pts)
