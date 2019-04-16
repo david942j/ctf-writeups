@@ -9,6 +9,6 @@ lens = IO.binread('e.pusheen.log').lines.map(&:split).map{|c|c[1].to_i}
   low = guess - 200
   up = guess + 200
   low.upto(up) do |offset|
-    puts "timeout 10 ./tree #{offset} secrets.zip.enc #{danny}"
+    puts "timeout 10 ./tree #{offset} challenge/secrets.zip.enc #{danny}"
   end
 end
