@@ -140,6 +140,12 @@ These challenges are created by me so there're scripts for creating them.
 * potassium (pwn 400 + 150 + 250pts)
 * Re: Plaid Party Planning (misc 200pts)
 
+## plaidctf-2019
+
+* splaid-birch (pwn 300pts)
+* splaid-cypress (crypto 600pts)
+* suffarring (pwn 500pts)
+
 ## rctf-2017
 
 * RCalc (pwn 350pts)
