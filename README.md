@@ -78,6 +78,16 @@
 * shellql (shellcode, web 118pts)
 * TechSupport (pwn 177pts)
 
+## defcon-quals-2019
+
+* election_coin (pwn, reverse 271pts)
+* hotel-california (shellcoding 187pts)
+* shitorrent (pwn 162pts)
+* speedrun
+  - 11 (shellcoding)
+  - 12 (pwn)
+* veryandroidoso (android, reverse 139pts)
+
 ## dragonctf-teaser-2018
 
 * faststorage (pwn 400pts)
