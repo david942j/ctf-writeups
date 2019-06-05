@@ -93,6 +93,17 @@
 * faststorage (pwn 400pts)
 * production (pwn 343pts)
 
+## fbctf-2019
+
+* asciishop (pwn 985pts)
+* imageprot (rev 100pts)
+* kpets (pwn 940pts)
+* nomoreseacrypt (rev 985pts)
+* otp_server (pwn 410pts)
+* overfloat (pwn 100pts)
+* raddest_db (pwn 998pts)
+* rank (pwn 494pts)
+
 ## google-ctf-quals-2017
 
 * primary (pwn 474pts)
