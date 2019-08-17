@@ -68,7 +68,7 @@
 * super_ftp (pwn 600pts)
 * zoo (pwn 980pts)
 
-## codegate-quals-2018
+## codegate-quals-2019
 
 * archiver (pwn 47.6pts)
 
