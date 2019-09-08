@@ -196,6 +196,12 @@ These challenges are created by me so there're scripts for creating them.
   - [writeup](https://david942j.blogspot.com/2018/09/write-up-tokyowesterns-ctf-2018.html)
 * REVersiNG (rev 447pts)
 
+## twctf-2019
+
+* MultiHeap (pwn 270pts)
+* SecureKarte (pwn 255pts)
+* simple_logic (crypto 95pts)
+
 ## whitehat-grand-prix-2016
 
 * Bun bo Nam Bo (pwn 500pts)
