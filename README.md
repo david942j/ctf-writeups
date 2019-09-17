@@ -178,6 +178,12 @@ These challenges are created by me so there're scripts for creating them.
 
 * frawler (pwn 500pts)
 
+## realworld-ctf-quals-2019
+
+* Across the Great Wall (pwn 378pts)
+* anti-antivirus (pwn 290pts)
+* faX senDeR (pwn 224pts)
+
 ## teaser-confidence-quals-2019
 
 * go-machine (rev 304pts)
