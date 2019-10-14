@@ -1,0 +1,10 @@
+diff --git a/Makefile b/Makefile
+index 7f09879..d25eff3 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,4 +1,4 @@
+-ROOT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
++ROOT_DIR := /home/PoE/qemu/slirp
+ BUILD_DIR ?= .
+ 
+ LIBSLIRP = $(BUILD_DIR)/libslirp.a

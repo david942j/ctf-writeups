@@ -140,8 +140,19 @@ These challenges are created by me so there're scripts for creating them.
 * EOP (rev 257pts)
 * abyss (pwn 230 + 292 + 262pts)
 * groot (pwn 305pts)
-* HITCON (327 pts)
-* unexecutable (360 pts)
+* HITCON (pwn 327pts)
+* unexecutable (misc, pwn 360pts)
+
+## hitcon-quals-2019
+
+These challenges are created by me so there're scripts for creating them.
+
+* PoE (pwn 284 + 500 + 500pts)
+  - [writeup](https://david942j.blogspot.com/2019/10/official-write-up-hitcon-ctf-quals-2019.html)
+* Welcome (welcome 50pts)
+* Revenge of Welcome (misc 105pts)
+* Suicune (rev 305pts)
+* heXDump (misc 202pts)
 
 ## meepwnctf-2018
 

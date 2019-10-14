@@ -1,0 +1,4 @@
+config TPU
+  tristate "Treap Processing Unit driver by david942j"
+  default m
+  depends on PCI && X86

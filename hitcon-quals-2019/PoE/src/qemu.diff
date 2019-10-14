@@ -1,0 +1,26 @@
+diff --git a/hw/misc/Kconfig b/hw/misc/Kconfig
+index 385e1b0..1c64882 100644
+--- a/hw/misc/Kconfig
++++ b/hw/misc/Kconfig
+@@ -117,4 +117,8 @@ config AUX
+     bool
+     select I2C
+ 
++config TPU
++    bool
++    default y
++
+ source macio/Kconfig
+diff --git a/hw/misc/Makefile.objs b/hw/misc/Makefile.objs
+index e9aab51..968f31f 100644
+--- a/hw/misc/Makefile.objs
++++ b/hw/misc/Makefile.objs
+@@ -26,6 +26,8 @@ common-obj-$(CONFIG_PUV3) += puv3_pm.o
+ 
+ common-obj-$(CONFIG_MACIO) += macio/
+ 
++common-obj-$(CONFIG_TPU) += tpu.o
++
+ obj-$(CONFIG_IVSHMEM_DEVICE) += ivshmem.o
+ 
+ obj-$(CONFIG_REALVIEW) += arm_sysctl.o

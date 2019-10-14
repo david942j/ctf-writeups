@@ -1,0 +1,21 @@
+i 0 abcde
+r 1 2 A
+R 0 4
+d 0 5
+n
+i 0 123456
+D 2 3
+d 0 3
+R 0 3
+c 0 1
+s 0
+p 0
+d 0 6
+n
+i 0 abcdefg
+R 3 4
+d 0 7
+r 0 7 A
+d 4 3
+i 0 q
+d 0 3

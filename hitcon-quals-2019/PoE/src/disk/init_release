@@ -1,0 +1,19 @@
+#!/bin/sh
+
+chown 0:0 -R /
+chown 1000 /home/poe
+chmod 444 /home/poe/flag1
+chmod 400 /flag2
+
+mount -t proc none /proc
+mount -t sysfs none /sys
+mount -t devtmpfs none /dev
+
+sleep 1
+
+dmesg -n 1
+insmod tpu.ko
+chmod 0666 /dev/cord
+timeout -t 60 -s KILL setsid cttyhack su -s /home/poe/luna poe # for PoE I & II
+# timeout -t 60 -s KILL /home/poe/luna # for PoE III
+poweroff -f
