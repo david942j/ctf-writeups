@@ -1,0 +1,4 @@
+config SPARK
+  tristate "Shortest Path AlgoRithm in Kernel by david942j"
+  default m
+  depends on X86

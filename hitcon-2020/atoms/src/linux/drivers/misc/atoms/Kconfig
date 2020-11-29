@@ -1,0 +1,4 @@
+config ATOMS
+  tristate "A TOken-based Memory Storage by david942j"
+  default m
+  depends on X86

@@ -154,6 +154,18 @@ These challenges are created by me so there're scripts for creating them.
 * Suicune (rev 305pts)
 * heXDump (misc 202pts)
 
+## hitcon-2020
+
+These challenges are created by me so there're scripts for creating them.
+
+* Revenge of Pwn (misc, pwn 255pts)
+* Tenet (misc, rev 222pts)
+* spark (pwn 334pts)
+* atoms (misc, pwn 296pts)
+* SOP (rev 305pts)
+* 11011001 (rev 255pts)
+
+
 ## meepwnctf-2018
 
 * Coin (pwn 960pts)
