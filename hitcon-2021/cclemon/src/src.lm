@@ -1,0 +1,58 @@
+var seed = 0x4183139;
+def w() {
+  seed = (seed * 0x133791 + 0x132b9d01) % 4294967296;
+  return seed;
+}
+
+class A {
+  def __init__(var n) {
+    self.a = [];
+    for (var i = 0; i < n; i += 1) {
+      self.a.append(w());
+    }
+  }
+
+  def r(var x, var y) {
+    if (x > y) { return self.r(y, x); }
+    while (x < y) {
+      self.s(x, y);
+      x += 1;
+      y -= 1;
+    }
+  }
+
+  def s(var x, var y) {
+    var _ = self.a[x];
+    self.a[x] = self.a[y];
+    self.a[y] = _;
+  }
+
+  def o(var x, var y, var val) {
+    if (x > y) { return self.o(y, x, val); }
+    for (var i = x; i <= y; i += 1) {
+      self.a[i] = self.a[i] ^ val;
+    }
+  }
+};
+var N = 200000;
+var u = A(N);
+// print('OK', u.a);
+
+for (var i = 0; i < N * 5; i += 1) {
+  var op = w() % 3;
+  var x = w() % N;
+  var y = w() % N;
+  if (op == 0) {
+    u.r(x, y);
+  } else if (op == 1) {
+    u.s(x, y);
+  } else if (op == 2) {
+    var v = w();
+    u.o(x, y, v);
+  }
+}
+var val = 0;
+for (i = 0; i < N; i += 1) {
+  val += u.a[i] * (i + 1);
+}
+print('hitcon{' + val.__string__() + '}');

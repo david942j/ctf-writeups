@@ -165,6 +165,18 @@ These challenges are created by me so there're scripts for creating them.
 * SOP (rev 305pts)
 * 11011001 (rev 255pts)
 
+## hitcon-2021
+
+These challenges are created by me so there're scripts for creating them.
+
+* cclemon (reverse 271pts)
+* chaos-firmware ([crypto|pwn]+ 334pts)
+* chaos-kernel ([crypto|pwn]+ 421pts)
+* chaos-sandbox ([crypto|pwn]+ 450pts)
+* dtb (misc, pwn 450pts)
+* dtcaas (pwn 450pts)
+* mercy (reverse 305pts)
+* uml (pwn 265pts)
 
 ## meepwnctf-2018
 
