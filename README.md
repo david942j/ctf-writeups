@@ -173,6 +173,8 @@ These challenges are created by me so there're scripts for creating them.
 * chaos-firmware ([crypto|pwn]+ 334pts)
 * chaos-kernel ([crypto|pwn]+ 421pts)
 * chaos-sandbox ([crypto|pwn]+ 450pts)
+  - [official writeup](https://david942j.blogspot.com/2021/12/official-write-up-hitcon-ctf-2021-chaos.html
+)
 * dtb (misc, pwn 450pts)
 * dtcaas (pwn 450pts)
 * mercy (reverse 305pts)
